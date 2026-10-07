@@ -1,0 +1,16 @@
+# 统一换行符，避免 Windows/Linux 之间来回改坏行尾
+* text=auto eol=lf
+
+# 批处理必须保持 CRLF，否则 cmd.exe 解析会出问题
+*.cmd text eol=crlf
+
+# 我们的 .cmd 是 UTF-8（无 BOM），在 GitHub 上按文本 diff 显示即可
+*.md   text eol=lf
+*.py   text eol=lf
+*.js   text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+
+# 图片
+*.png binary
+*.jpg binary

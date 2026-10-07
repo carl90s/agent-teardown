@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agent 拆机工坊 · 四幕十二关</title>
+<meta name="description" content="《深入理解 AI Agent》的离线交互式拆机版：12 关、44 张概念卡、12 个可拨动的模拟器、6 个零依赖 Python 实验。">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="bg"></div>
+
+<!-- ============ HUD 顶栏 ============ -->
+<header id="hud">
+  <div class="brand">
+    <span class="mark">TEARDOWN</span>
+    <span class="name">Agent 拆机工坊</span>
+    <span class="sub">LLM + 上下文 + 工具</span>
+  </div>
+
+  <div class="hud-spacer"></div>
+
+  <div class="stat">
+    <span class="k">XP</span><span class="v" id="xp">0</span>
+  </div>
+
+  <div class="stat xp-wrap">
+    <span class="k">进度</span><span class="v" id="prog">0/12</span>
+    <div class="xp-bar"><div class="xp-fill" id="xpfill"></div></div>
+  </div>
+
+  <div class="badges">
+    <div class="badge" data-b="1" title="幕一 · 拆机">·</div>
+    <div class="badge" data-b="2" title="幕二 · 眼睛">·</div>
+    <div class="badge" data-b="3" title="幕三 · 手脚">·</div>
+    <div class="badge" data-b="4" title="幕四 · 进化">·</div>
+  </div>
+
+  <button class="btn ghost" id="homebtn">总览</button>
+  <button class="btn ghost" id="resetbtn">重置</button>
+</header>
+
+<!-- ============ 主体 ============ -->
+<div id="shell">
+  <nav id="rail"></nav>
+  <main id="main">
+    <div id="stage"></div>
+  </main>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- ============ 脚本（classic script，保证 file:// 可直接打开） ============ -->
+<script src="content-a.js"></script>
+<script src="content-b.js"></script>
+<script src="sims.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
