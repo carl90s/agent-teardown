@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agent 拆机工坊 · 不读这本书，把它拆开看</title>
+<link rel="canonical" href="agent-teardown/index.html">
+<meta http-equiv="refresh" content="0; url=agent-teardown/index.html">
+<meta name="description" content="把《深入理解 AI Agent》306 页拆成 12 关闯关应用 + 12 个交互模拟器 + 6 个离线实验。Agent = LLM + 上下文 + 工具。">
+<style>
+  :root{--ink:#050b14;--bg:#08111d;--line:#173049;--cyan:#4fd6e8;--amber:#f2b23c;--dim:#7d95ad}
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{
+    background:
+      linear-gradient(rgba(79,214,232,.045) 1px,transparent 1px) 0 0/100% 28px,
+      linear-gradient(90deg,rgba(79,214,232,.045) 1px,transparent 1px) 0 0/28px 100%,
+      radial-gradient(120% 90% at 20% 0%,#0d1c2e 0%,var(--bg) 55%,var(--ink) 100%);
+    color:#dbe7f2;
+    font:16px/1.75 "Microsoft YaHei","PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+    display:flex;align-items:center;justify-content:center;padding:24px;
+  }
+  .wrap{max-width:720px;width:100%;border:1px solid var(--line);background:rgba(9,20,34,.82);padding:40px 40px 34px;position:relative}
+  .wrap::before{content:"";position:absolute;inset:0 auto auto 0;width:120px;height:3px;background:linear-gradient(90deg,var(--cyan),var(--amber))}
+  .mark{font:600 12px/1 Bahnschrift,"Arial Narrow",sans-serif;letter-spacing:.32em;color:var(--cyan);text-transform:uppercase}
+  h1{margin:14px 0 6px;font:800 clamp(30px,5.4vw,46px)/1.16 Bahnschrift,"Microsoft YaHei",sans-serif;letter-spacing:-.01em}
+  h1 em{font-style:normal;color:var(--cyan)}
+  .sub{margin:0 0 22px;color:var(--dim);font-size:15px}
+  code{font-family:"Cascadia Mono",Consolas,monospace;background:rgba(79,214,232,.08);border:1px solid var(--line);padding:1px 7px;color:var(--cyan);font-size:14px}
+  .go{display:inline-block;margin:6px 0 20px;padding:12px 26px;background:var(--cyan);color:#04121b;text-decoration:none;font-weight:700;letter-spacing:.06em;border:1px solid var(--cyan);transition:.15s}
+  .go:hover{background:transparent;color:var(--cyan)}
+  ul{margin:0;padding-left:20px;color:var(--dim);font-size:14.5px}
+  li{margin:5px 0}
+  a{color:var(--amber)}
+  hr{border:0;border-top:1px solid var(--line);margin:24px 0 16px}
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <p class="mark">TEARDOWN BLUEPRINT</p>
+    <h1>不读这本书，<em>把它拆开看</em>。</h1>
+    <p class="sub">《深入理解 AI Agent》306 页 → <b>12 关闯关 · 44 张概念卡 · 12 个模拟器 · 36 道题 · 6 个离线实验</b>。全部离线运行，不需要 API key。</p>
+
+    <a class="go" href="agent-teardown/index.html">进入闯关应用 →</a>
+
+    <ul>
+      <li><code>Agent = LLM + 上下文 + 工具</code> —— 全书基本是在展开这一行公式。</li>
+      <li>这一页是<a href="https://github.com/carl90s/agent-teardown">仓库</a>的在线入口；没被自动跳转的话点上面的按钮。</li>
+      <li>想跑 <code>labs/</code> 里的 6 个 Python 实验，把仓库 clone 下来，Windows 双击 <code>开始学习.cmd</code>。</li>
+    </ul>
+
+    <hr>
+    <p class="sub" style="margin:0;font-size:13.5px">
+      概念与实验编号引自李博杰《深入理解 AI Agent：设计原理与工程实践》，讲解、可视化与代码为 MIT 许可的教学重实现。
+      仓库不含原书 PDF 或原文。<a href="https://github.com/carl90s/agent-teardown/blob/main/NOTICE.md">NOTICE</a>
+    </p>
+  </main>
+</body>
+</html>
