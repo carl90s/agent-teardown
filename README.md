@@ -42,6 +42,12 @@ Agent = LLM + 上下文 + 工具
 
 ## 快速开始
 
+### 只想先看看：在线版
+
+**👉 <https://carl90s.github.io/agent-teardown/>**
+
+不用 clone、不用装任何东西，打开就能玩。（在线版只有闯关应用；6 个 Python 实验要 clone 下来跑。）
+
 ### Windows：双击就行
 
 ```
