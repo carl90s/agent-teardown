@@ -145,7 +145,7 @@ python lab1_react.py      # Python >= 3.10，只需要 numpy
 
 ## 许可
 
-代码以 [MIT](LICENSE) 发布。文字讲解部分同样以 MIT 发布，但其中引用原书的部分（概念、结论、实验编号）版权归原作者所有。
+代码与文字以 [MIT](LICENSE) 发布。其中引用原书的部分（概念、结论、实验编号）版权归原作者所有，详见 [NOTICE.md](NOTICE.md)。
 
 ---
 

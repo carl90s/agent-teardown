@@ -19,21 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-NOTICE ON THIRD-PARTY CONTENT / 第三方内容说明
-
-This repository does NOT include the original book
-《深入理解 AI Agent：设计原理与工程实践》 (by 李博杰) in any form —
-neither the PDF nor any extracted full text. The book is a copyrighted work;
-please obtain it through legitimate channels.
-
-Concepts, formulas, experiment numbering (e.g. "实验 1-1") and some result
-figures referenced in this repository are attributed to that book. The
-explanations, visualizations and code here are original re-implementations
-for teaching purposes. The book's companion repository is at
-https://github.com/bojieli/ai-agent-book
-
-本仓库不包含原书 PDF，也不包含任何原文抽取文本。书中概念、公式、实验编号
-与部分结论数字均引自原书；本仓库的讲解、可视化与代码为面向教学的重新实现。
